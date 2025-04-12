@@ -1,6 +1,8 @@
 # Sistema de Saúde - vidaPlus
 
-Bem-vindo à documentação do **vidaPlus**, um sistema de saúde simples, modular e eficiente, projetado para gerenciar usuários, pacientes, prontuários, agendamentos e consultas de telemedicina. Este sistema foi desenvolvido para atender clínicas, hospitais e profissionais da área de saúde, garantindo segurança e conformidade com a LGPD.
+Documentação do **VidaPlus**
+
+Um sistema de saúde simples, modular e eficiente, projetado para gerenciar usuários, pacientes, prontuários, agendamentos e consultas de telemedicina. Este sistema foi desenvolvido para atender clínicas, hospitais e profissionais da área de saúde, garantindo segurança e conformidade com a LGPD.
 
 ---
 
@@ -39,7 +41,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 ### 1. Clone o Repositório
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/guivnh/Vidaplus.git
 cd seu-repositorio
 ```
 
@@ -60,7 +62,7 @@ pip install -r requirements.txt
   ```env
   FLASK_APP=app.py
   FLASK_ENV=development
-  DATABASE_URL=postgresql://usuario:senha@localhost/vidaPlus
+  DATABASE_URL=postgresql://postgres:!Root1@localhost/micro_sistema_saude
   SECRET_KEY=sua_chave_secreta
   ```
 
@@ -87,40 +89,8 @@ O servidor estará disponível em: **[http://127.0.0.1:5000](http://127.0.0.1:50
 
 ---
 
-## 📂 Estrutura do Projeto
-
-```plaintext
-.
-├── app/
-│   ├── controllers/    # Controladores das rotas
-│   ├── models/         # Definições das tabelas e regras de negócio
-│   ├── services/       # Lógica de negócios
-│   ├── utils/          # Funções auxiliares
-│   └── app.py          # Arquivo principal da aplicação
-├── migrations/         # Migrações do banco de dados
-├── tests/              # Testes automatizados
-├── requirements.txt    # Dependências do projeto
-├── .env                # Arquivo de configuração
-└── README.md           # Documentação do projeto
-```
-
----
-
 ## 📄 Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a Apache License 2.0.
 
 ---
-
-## 👨‍💻 Contribuidores
-
-- **Seu Nome** - [GitHub](https://github.com/seu-usuario)
-- Outros Contribuidores (adicione conforme necessário)
-
----
-
-## 📞 Contato
-
-Caso tenha dúvidas ou sugestões, entre em contato:
-- **E-mail**: [seu-email@dominio.com](mailto:seu-email@dominio.com)
-- **GitHub Issues**: [Acesse aqui](https://github.com/seu-usuario/seu-repositorio/issues)
