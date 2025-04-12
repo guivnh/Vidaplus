@@ -1,0 +1,33 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Micro Sistema de Saúde VidaPlus - API",
+    "description": "Documentação da API para o sistema de saúde VidaPlus."
+  },
+  "paths": {
+    "/auth/login": {
+      "post": {
+        "summary": "Login de usuário",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "email": { "type": "string" },
+                "senha": { "type": "string" }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": { "description": "Login bem-sucedido" },
+          "401": { "description": "Credenciais inválidas" }
+        }
+      }
+    }
+  }
+}
