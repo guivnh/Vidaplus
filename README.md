@@ -13,7 +13,6 @@ Um sistema de saúde simples, modular e eficiente, projetado para gerenciar usu�
 - **Cadastro e Consulta de Pacientes**: Registro e consulta de informações pessoais e de saúde.
 - **Prontuários Eletrônicos**: Registro de diagnósticos e tratamentos realizados por médicos.
 - **Agendamento de Consultas**: Organização de compromissos entre médicos e pacientes.
-- **Telemedicina** *(opcional)*: Suporte a consultas online para acesso remoto a pacientes.
 
 ---
 
