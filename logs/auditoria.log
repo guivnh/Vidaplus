@@ -958,3 +958,20 @@
 2025-04-19 00:24:38,035 - INFO - 127.0.0.1 - - [19/Apr/2025 00:24:38] "[35m[1mPOST /agendamentos/ HTTP/1.1[0m" 201 -
 2025-04-19 00:28:32,088 - INFO - 127.0.0.1 - - [19/Apr/2025 00:28:32] "[32mGET /agendamentos HTTP/1.1[0m" 308 -
 2025-04-19 00:28:32,100 - INFO - 127.0.0.1 - - [19/Apr/2025 00:28:32] "GET /agendamentos/ HTTP/1.1" 200 -
+2025-04-19 00:39:28,458 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-19 00:39:28,458 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 00:39:28,460 - INFO -  * Restarting with stat
+2025-04-19 00:39:29,628 - WARNING -  * Debugger is active!
+2025-04-19 00:39:29,632 - INFO -  * Debugger PIN: 559-662-008
+2025-04-19 00:39:32,402 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:32] "GET / HTTP/1.1" 200 -
+2025-04-19 00:39:35,192 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:35] "GET /auth/status HTTP/1.1" 200 -
+2025-04-19 00:39:37,710 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:37] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-19 00:39:37,945 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:37] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-19 00:39:37,950 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:37] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-19 00:39:37,960 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:37] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-19 00:39:37,961 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:37] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-19 00:39:38,207 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:38] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-19 00:39:38,279 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:38] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
