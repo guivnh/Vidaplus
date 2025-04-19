@@ -468,3 +468,493 @@
 2025-04-12 14:33:06,420 - INFO -  * Restarting with stat
 2025-04-12 14:33:07,647 - WARNING -  * Debugger is active!
 2025-04-12 14:33:07,651 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 19:45:52,513 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 19:45:52,514 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 19:45:52,517 - INFO -  * Restarting with stat
+2025-04-18 19:45:53,636 - WARNING -  * Debugger is active!
+2025-04-18 19:45:53,641 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 19:46:04,213 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:04] "GET / HTTP/1.1" 200 -
+2025-04-18 19:46:04,459 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-18 19:46:11,256 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:11] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:46:17,240 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:17] "[33mGET /admin/usuarios HTTP/1.1[0m" 404 -
+2025-04-18 19:46:19,960 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:19] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 19:46:20,225 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:20] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 19:46:20,239 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:20] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 19:46:20,267 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:20] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 19:46:20,431 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:20] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 19:46:20,535 - INFO - 127.0.0.1 - - [18/Apr/2025 19:46:20] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 19:47:23,514 - INFO - 127.0.0.1 - - [18/Apr/2025 19:47:23] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 19:47:23,579 - INFO - 127.0.0.1 - - [18/Apr/2025 19:47:23] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 19:47:23,587 - INFO - 127.0.0.1 - - [18/Apr/2025 19:47:23] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 19:47:23,589 - INFO - 127.0.0.1 - - [18/Apr/2025 19:47:23] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 19:47:23,592 - INFO - 127.0.0.1 - - [18/Apr/2025 19:47:23] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 19:47:23,779 - INFO - 127.0.0.1 - - [18/Apr/2025 19:47:23] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 19:47:23,823 - INFO - 127.0.0.1 - - [18/Apr/2025 19:47:23] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 19:47:25,364 - INFO - 127.0.0.1 - - [18/Apr/2025 19:47:25] "GET / HTTP/1.1" 200 -
+2025-04-18 19:51:58,763 - INFO - 127.0.0.1 - - [18/Apr/2025 19:51:58] "GET / HTTP/1.1" 200 -
+2025-04-18 19:52:08,559 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:08] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:10,507 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:10] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:11,171 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:11] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:11,375 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:11] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:11,526 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:11] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:11,699 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:11] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:11,885 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:11] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:12,077 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:12] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:12,262 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:12] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:12,475 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:12] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 19:52:18,749 - INFO - 127.0.0.1 - - [18/Apr/2025 19:52:18] "GET / HTTP/1.1" 200 -
+2025-04-18 19:55:36,595 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:36] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 19:55:36,649 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:36] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 19:55:36,652 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:36] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 19:55:36,653 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:36] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 19:55:36,654 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:36] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 19:55:36,821 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:36] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 19:55:36,830 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:36] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 19:55:38,637 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:38] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 19:55:38,694 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:38] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 19:55:38,699 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:38] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 19:55:38,702 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:38] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 19:55:38,704 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:38] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 19:55:38,799 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:38] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 19:55:38,809 - INFO - 127.0.0.1 - - [18/Apr/2025 19:55:38] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 20:00:11,524 - INFO - 127.0.0.1 - - [18/Apr/2025 20:00:11] "GET / HTTP/1.1" 200 -
+2025-04-18 20:00:17,050 - INFO - 127.0.0.1 - - [18/Apr/2025 20:00:17] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-04-18 20:00:22,195 - INFO - 127.0.0.1 - - [18/Apr/2025 20:00:22] "GET / HTTP/1.1" 200 -
+2025-04-18 20:00:39,820 - INFO - 127.0.0.1 - - [18/Apr/2025 20:00:39] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-18 20:00:44,845 - INFO - 127.0.0.1 - - [18/Apr/2025 20:00:44] "[33mPOST /login HTTP/1.1[0m" 404 -
+2025-04-18 20:01:01,303 - INFO - 127.0.0.1 - - [18/Apr/2025 20:01:01] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-04-18 20:01:07,963 - INFO - 127.0.0.1 - - [18/Apr/2025 20:01:07] "GET / HTTP/1.1" 200 -
+2025-04-18 20:09:01,748 - INFO - 127.0.0.1 - - [18/Apr/2025 20:09:01] "[33mPOST /login HTTP/1.1[0m" 404 -
+2025-04-18 20:09:38,816 - INFO - 127.0.0.1 - - [18/Apr/2025 20:09:38] "GET / HTTP/1.1" 200 -
+2025-04-18 20:12:32,859 - INFO - 127.0.0.1 - - [18/Apr/2025 20:12:32] "[31m[1mGET /auth/login HTTP/1.1[0m" 405 -
+2025-04-18 20:20:59,175 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 20:20:59,176 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 20:20:59,178 - INFO -  * Restarting with stat
+2025-04-18 20:21:00,269 - WARNING -  * Debugger is active!
+2025-04-18 20:21:00,274 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 20:21:12,570 - INFO -  * Detected change in 'D:\\OneDrive - UNINTER - Aluno\\Matérias\\27.Projeto - Desenvolvimento Back-end\\micro_sistema_saude\\app\\routes\\auth.py', reloading
+2025-04-18 20:21:12,760 - INFO -  * Restarting with stat
+2025-04-18 20:21:13,990 - WARNING -  * Debugger is active!
+2025-04-18 20:21:13,994 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 20:21:20,363 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 20:21:20,363 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 20:21:20,365 - INFO -  * Restarting with stat
+2025-04-18 20:21:21,458 - WARNING -  * Debugger is active!
+2025-04-18 20:21:21,463 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 20:21:42,400 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 20:21:42,401 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 20:21:42,403 - INFO -  * Restarting with stat
+2025-04-18 20:21:43,543 - WARNING -  * Debugger is active!
+2025-04-18 20:21:43,547 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 20:24:27,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 20:24:27,492 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 20:24:27,494 - INFO -  * Restarting with stat
+2025-04-18 20:24:28,615 - WARNING -  * Debugger is active!
+2025-04-18 20:24:28,619 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 20:40:15,953 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 20:40:15,954 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 20:40:15,956 - INFO -  * Restarting with stat
+2025-04-18 20:40:17,062 - WARNING -  * Debugger is active!
+2025-04-18 20:40:17,065 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 20:40:20,873 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:20] "GET / HTTP/1.1" 200 -
+2025-04-18 20:40:21,950 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:21] "GET / HTTP/1.1" 200 -
+2025-04-18 20:40:32,869 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:32] "[31m[1mGET /auth/login HTTP/1.1[0m" 405 -
+2025-04-18 20:40:49,447 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:49] "[32mGET /api/docs HTTP/1.1[0m" 308 -
+2025-04-18 20:40:49,499 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:49] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 20:40:49,751 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:49] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 20:40:49,768 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:49] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 20:40:49,807 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:49] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 20:40:49,970 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:49] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 20:40:50,063 - INFO - 127.0.0.1 - - [18/Apr/2025 20:40:50] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 20:41:00,374 - INFO - 127.0.0.1 - - [18/Apr/2025 20:41:00] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 20:48:52,890 - INFO - 127.0.0.1 - - [18/Apr/2025 20:48:52] "GET / HTTP/1.1" 200 -
+2025-04-18 20:48:53,998 - INFO - 127.0.0.1 - - [18/Apr/2025 20:48:53] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 20:48:55,113 - INFO - 127.0.0.1 - - [18/Apr/2025 20:48:55] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 20:48:55,162 - INFO - 127.0.0.1 - - [18/Apr/2025 20:48:55] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 20:48:55,165 - INFO - 127.0.0.1 - - [18/Apr/2025 20:48:55] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 20:48:55,170 - INFO - 127.0.0.1 - - [18/Apr/2025 20:48:55] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 20:48:55,171 - INFO - 127.0.0.1 - - [18/Apr/2025 20:48:55] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 20:48:55,255 - INFO - 127.0.0.1 - - [18/Apr/2025 20:48:55] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 20:48:55,294 - INFO - 127.0.0.1 - - [18/Apr/2025 20:48:55] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 20:51:50,683 - INFO - 127.0.0.1 - - [18/Apr/2025 20:51:50] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 20:53:25,142 - INFO - 127.0.0.1 - - [18/Apr/2025 20:53:25] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 20:53:29,249 - INFO - 127.0.0.1 - - [18/Apr/2025 20:53:29] "[31m[1mGET /auth/login HTTP/1.1[0m" 405 -
+2025-04-18 20:56:03,126 - INFO - 127.0.0.1 - - [18/Apr/2025 20:56:03] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 21:00:42,268 - INFO - 127.0.0.1 - - [18/Apr/2025 21:00:42] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 21:01:11,530 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:11] "GET / HTTP/1.1" 200 -
+2025-04-18 21:01:12,416 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:12] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 21:01:14,066 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:14] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 21:01:14,116 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:14] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 21:01:14,121 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:14] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 21:01:14,126 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:14] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 21:01:14,128 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:14] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 21:01:14,214 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:14] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 21:01:14,230 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:14] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 21:01:15,204 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:15] "GET / HTTP/1.1" 200 -
+2025-04-18 21:01:44,957 - INFO - 127.0.0.1 - - [18/Apr/2025 21:01:44] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 21:04:08,312 - INFO - 127.0.0.1 - - [18/Apr/2025 21:04:08] "[31m[1mGET /auth/login HTTP/1.1[0m" 405 -
+2025-04-18 21:06:01,667 - INFO - 127.0.0.1 - - [18/Apr/2025 21:06:01] "[31m[1mGET /auth/login HTTP/1.1[0m" 405 -
+2025-04-18 21:08:27,639 - INFO - 127.0.0.1 - - [18/Apr/2025 21:08:27] "[31m[1mPOST /auth/login HTTP/1.1[0m" 400 -
+2025-04-18 21:09:30,287 - INFO - 127.0.0.1 - - [18/Apr/2025 21:09:30] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 21:10:08,680 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:08] "GET / HTTP/1.1" 200 -
+2025-04-18 21:10:09,674 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:09] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 21:10:10,311 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:10] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 21:10:10,359 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:10] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 21:10:10,367 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:10] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 21:10:10,367 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:10] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 21:10:10,368 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:10] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 21:10:10,457 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:10] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 21:10:10,473 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:10] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 21:10:12,359 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:12] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 21:10:14,357 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:14] "[31m[1mGET /auth/login HTTP/1.1[0m" 405 -
+2025-04-18 21:10:39,833 - INFO - 127.0.0.1 - - [18/Apr/2025 21:10:39] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 21:30:20,790 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 21:30:20,790 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 21:30:20,792 - INFO -  * Restarting with stat
+2025-04-18 21:30:21,895 - WARNING -  * Debugger is active!
+2025-04-18 21:30:21,899 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 21:30:23,971 - INFO - 127.0.0.1 - - [18/Apr/2025 21:30:23] "GET / HTTP/1.1" 200 -
+2025-04-18 21:30:24,827 - INFO - 127.0.0.1 - - [18/Apr/2025 21:30:24] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 21:30:25,556 - INFO - 127.0.0.1 - - [18/Apr/2025 21:30:25] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 21:30:25,786 - INFO - 127.0.0.1 - - [18/Apr/2025 21:30:25] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 21:30:25,802 - INFO - 127.0.0.1 - - [18/Apr/2025 21:30:25] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 21:30:25,803 - INFO - 127.0.0.1 - - [18/Apr/2025 21:30:25] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 21:30:25,807 - INFO - 127.0.0.1 - - [18/Apr/2025 21:30:25] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 21:30:25,878 - INFO - 127.0.0.1 - - [18/Apr/2025 21:30:25] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 21:30:25,898 - INFO - 127.0.0.1 - - [18/Apr/2025 21:30:25] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 21:34:52,317 - INFO -  * Detected change in 'D:\\OneDrive - UNINTER - Aluno\\Matérias\\27.Projeto - Desenvolvimento Back-end\\micro_sistema_saude\\atualizar_senha.py', reloading
+2025-04-18 21:34:52,468 - INFO -  * Restarting with stat
+2025-04-18 21:34:53,688 - WARNING -  * Debugger is active!
+2025-04-18 21:34:53,693 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 21:38:04,961 - INFO - 127.0.0.1 - - [18/Apr/2025 21:38:04] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 21:41:27,282 - INFO - 127.0.0.1 - - [18/Apr/2025 21:41:27] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 21:41:41,730 - INFO - 127.0.0.1 - - [18/Apr/2025 21:41:41] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 21:45:30,358 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 21:45:30,359 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 21:45:30,360 - INFO -  * Restarting with stat
+2025-04-18 21:45:31,504 - WARNING -  * Debugger is active!
+2025-04-18 21:45:31,508 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 21:45:35,878 - INFO - 127.0.0.1 - - [18/Apr/2025 21:45:35] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 21:50:04,750 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 21:50:04,751 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 21:50:04,753 - INFO -  * Restarting with stat
+2025-04-18 21:50:05,863 - WARNING -  * Debugger is active!
+2025-04-18 21:50:05,867 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 21:50:08,503 - INFO - 127.0.0.1 - - [18/Apr/2025 21:50:08] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 21:50:09,383 - INFO - 127.0.0.1 - - [18/Apr/2025 21:50:09] "GET / HTTP/1.1" 200 -
+2025-04-18 21:50:10,437 - INFO - 127.0.0.1 - - [18/Apr/2025 21:50:10] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 21:50:10,674 - INFO - 127.0.0.1 - - [18/Apr/2025 21:50:10] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 21:50:10,690 - INFO - 127.0.0.1 - - [18/Apr/2025 21:50:10] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 21:50:10,691 - INFO - 127.0.0.1 - - [18/Apr/2025 21:50:10] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 21:50:10,691 - INFO - 127.0.0.1 - - [18/Apr/2025 21:50:10] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 21:50:10,768 - INFO - 127.0.0.1 - - [18/Apr/2025 21:50:10] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 21:50:10,790 - INFO - 127.0.0.1 - - [18/Apr/2025 21:50:10] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 21:51:08,948 - INFO - 127.0.0.1 - - [18/Apr/2025 21:51:08] "POST /auth/login HTTP/1.1" 200 -
+2025-04-18 21:55:14,564 - INFO - 127.0.0.1 - - [18/Apr/2025 21:55:14] "POST /auth/login HTTP/1.1" 200 -
+2025-04-18 22:07:58,425 - INFO - 127.0.0.1 - - [18/Apr/2025 22:07:58] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:07:58,433 - INFO - 127.0.0.1 - - [18/Apr/2025 22:07:58] "[31m[1mGET /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:08:09,589 - INFO - 127.0.0.1 - - [18/Apr/2025 22:08:09] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:08:09,594 - INFO - 127.0.0.1 - - [18/Apr/2025 22:08:09] "[31m[1mGET /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:08:42,640 - INFO - 127.0.0.1 - - [18/Apr/2025 22:08:42] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:08:42,646 - INFO - 127.0.0.1 - - [18/Apr/2025 22:08:42] "[31m[1mGET /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:13:22,560 - INFO - 127.0.0.1 - - [18/Apr/2025 22:13:22] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:13:22,572 - INFO - 127.0.0.1 - - [18/Apr/2025 22:13:22] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 22:14:07,181 - INFO - 127.0.0.1 - - [18/Apr/2025 22:14:07] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:14:07,190 - INFO - 127.0.0.1 - - [18/Apr/2025 22:14:07] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 22:14:33,944 - INFO - 127.0.0.1 - - [18/Apr/2025 22:14:33] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:14:33,952 - INFO - 127.0.0.1 - - [18/Apr/2025 22:14:33] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 22:15:00,782 - INFO - 127.0.0.1 - - [18/Apr/2025 22:15:00] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:15:00,792 - INFO - 127.0.0.1 - - [18/Apr/2025 22:15:00] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 22:25:52,372 - INFO - 127.0.0.1 - - [18/Apr/2025 22:25:52] "GET / HTTP/1.1" 200 -
+2025-04-18 22:25:53,246 - INFO - 127.0.0.1 - - [18/Apr/2025 22:25:53] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 22:25:54,105 - INFO - 127.0.0.1 - - [18/Apr/2025 22:25:54] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 22:25:54,158 - INFO - 127.0.0.1 - - [18/Apr/2025 22:25:54] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 22:25:54,164 - INFO - 127.0.0.1 - - [18/Apr/2025 22:25:54] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 22:25:54,164 - INFO - 127.0.0.1 - - [18/Apr/2025 22:25:54] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 22:25:54,167 - INFO - 127.0.0.1 - - [18/Apr/2025 22:25:54] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 22:25:54,293 - INFO - 127.0.0.1 - - [18/Apr/2025 22:25:54] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 22:25:54,319 - INFO - 127.0.0.1 - - [18/Apr/2025 22:25:54] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 22:26:22,454 - INFO - 127.0.0.1 - - [18/Apr/2025 22:26:22] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:26:22,460 - INFO - 127.0.0.1 - - [18/Apr/2025 22:26:22] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:27:32,869 - INFO - 127.0.0.1 - - [18/Apr/2025 22:27:32] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:27:32,921 - INFO - 127.0.0.1 - - [18/Apr/2025 22:27:32] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 22:27:38,154 - INFO - 127.0.0.1 - - [18/Apr/2025 22:27:38] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:27:38,172 - INFO - 127.0.0.1 - - [18/Apr/2025 22:27:38] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 22:27:39,738 - INFO - 127.0.0.1 - - [18/Apr/2025 22:27:39] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:27:39,756 - INFO - 127.0.0.1 - - [18/Apr/2025 22:27:39] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 22:28:11,408 - INFO - 127.0.0.1 - - [18/Apr/2025 22:28:11] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:28:11,413 - INFO - 127.0.0.1 - - [18/Apr/2025 22:28:11] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:28:23,326 - INFO - 127.0.0.1 - - [18/Apr/2025 22:28:23] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:28:23,335 - INFO - 127.0.0.1 - - [18/Apr/2025 22:28:23] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 22:29:00,154 - INFO - 127.0.0.1 - - [18/Apr/2025 22:29:00] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:29:00,161 - INFO - 127.0.0.1 - - [18/Apr/2025 22:29:00] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:29:36,611 - INFO - 127.0.0.1 - - [18/Apr/2025 22:29:36] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:29:36,627 - INFO - 127.0.0.1 - - [18/Apr/2025 22:29:36] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 22:29:55,179 - INFO - 127.0.0.1 - - [18/Apr/2025 22:29:55] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:29:55,185 - INFO - 127.0.0.1 - - [18/Apr/2025 22:29:55] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:32:00,433 - INFO - 127.0.0.1 - - [18/Apr/2025 22:32:00] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:32:00,443 - INFO - 127.0.0.1 - - [18/Apr/2025 22:32:00] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 22:32:09,356 - INFO - 127.0.0.1 - - [18/Apr/2025 22:32:09] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:32:09,363 - INFO - 127.0.0.1 - - [18/Apr/2025 22:32:09] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:33:26,389 - INFO - 127.0.0.1 - - [18/Apr/2025 22:33:26] "POST /auth/login HTTP/1.1" 200 -
+2025-04-18 22:33:50,643 - INFO - 127.0.0.1 - - [18/Apr/2025 22:33:50] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:33:50,649 - INFO - 127.0.0.1 - - [18/Apr/2025 22:33:50] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:34:35,417 - INFO - 127.0.0.1 - - [18/Apr/2025 22:34:35] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:34:35,423 - INFO - 127.0.0.1 - - [18/Apr/2025 22:34:35] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:34:57,913 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 22:34:57,914 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 22:34:57,917 - INFO -  * Restarting with stat
+2025-04-18 22:34:59,074 - WARNING -  * Debugger is active!
+2025-04-18 22:34:59,078 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 22:35:05,526 - INFO - 127.0.0.1 - - [18/Apr/2025 22:35:05] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:35:05,532 - INFO - 127.0.0.1 - - [18/Apr/2025 22:35:05] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:44:49,006 - INFO - 127.0.0.1 - - [18/Apr/2025 22:44:49] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:44:49,013 - INFO - 127.0.0.1 - - [18/Apr/2025 22:44:49] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:45:09,296 - INFO - 127.0.0.1 - - [18/Apr/2025 22:45:09] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:45:09,301 - INFO - 127.0.0.1 - - [18/Apr/2025 22:45:09] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:50:55,112 - INFO -  * Detected change in 'D:\\OneDrive - UNINTER - Aluno\\Matérias\\27.Projeto - Desenvolvimento Back-end\\micro_sistema_saude\\app\\utils\\permissions.py', reloading
+2025-04-18 22:50:55,258 - INFO -  * Restarting with stat
+2025-04-18 22:50:56,529 - WARNING -  * Debugger is active!
+2025-04-18 22:50:56,533 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 22:58:20,388 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 22:58:20,389 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 22:58:20,391 - INFO -  * Restarting with stat
+2025-04-18 22:58:21,512 - WARNING -  * Debugger is active!
+2025-04-18 22:58:21,516 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 22:58:25,910 - INFO - 127.0.0.1 - - [18/Apr/2025 22:58:25] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:58:25,916 - INFO - 127.0.0.1 - - [18/Apr/2025 22:58:25] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 22:58:39,171 - INFO - 127.0.0.1 - - [18/Apr/2025 22:58:39] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 22:58:39,432 - INFO - 127.0.0.1 - - [18/Apr/2025 22:58:39] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 22:58:46,526 - INFO - 127.0.0.1 - - [18/Apr/2025 22:58:46] "POST /auth/login HTTP/1.1" 200 -
+2025-04-18 23:01:04,502 - INFO - 127.0.0.1 - - [18/Apr/2025 23:01:04] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:01:04,509 - INFO - 127.0.0.1 - - [18/Apr/2025 23:01:04] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 23:01:26,654 - INFO - 127.0.0.1 - - [18/Apr/2025 23:01:26] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:01:26,663 - INFO - 127.0.0.1 - - [18/Apr/2025 23:01:26] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 23:02:16,271 - INFO -  * Detected change in 'D:\\OneDrive - UNINTER - Aluno\\Matérias\\27.Projeto - Desenvolvimento Back-end\\micro_sistema_saude\\app\\utils\\permissions.py', reloading
+2025-04-18 23:02:16,443 - INFO -  * Restarting with stat
+2025-04-18 23:02:17,751 - WARNING -  * Debugger is active!
+2025-04-18 23:02:17,756 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 23:02:25,255 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 23:02:25,256 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 23:02:25,258 - INFO -  * Restarting with stat
+2025-04-18 23:02:26,401 - WARNING -  * Debugger is active!
+2025-04-18 23:02:26,405 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 23:02:29,053 - INFO - 127.0.0.1 - - [18/Apr/2025 23:02:29] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:02:29,059 - INFO - 127.0.0.1 - - [18/Apr/2025 23:02:29] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 23:05:41,867 - INFO - 127.0.0.1 - - [18/Apr/2025 23:05:41] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:05:41,874 - INFO - 127.0.0.1 - - [18/Apr/2025 23:05:41] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 23:06:06,515 - INFO - 127.0.0.1 - - [18/Apr/2025 23:06:06] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:06:06,519 - INFO - 127.0.0.1 - - [18/Apr/2025 23:06:06] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 23:06:16,317 - INFO - 127.0.0.1 - - [18/Apr/2025 23:06:16] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:06:16,323 - INFO - 127.0.0.1 - - [18/Apr/2025 23:06:16] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 401 -
+2025-04-18 23:06:23,096 - INFO - 127.0.0.1 - - [18/Apr/2025 23:06:23] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:06:23,233 - INFO - 127.0.0.1 - - [18/Apr/2025 23:06:23] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:06:40,215 - INFO - 127.0.0.1 - - [18/Apr/2025 23:06:40] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:06:40,239 - INFO - 127.0.0.1 - - [18/Apr/2025 23:06:40] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:07:10,206 - INFO - 127.0.0.1 - - [18/Apr/2025 23:07:10] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:07:10,226 - INFO - 127.0.0.1 - - [18/Apr/2025 23:07:10] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:07:24,137 - INFO - 127.0.0.1 - - [18/Apr/2025 23:07:24] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:07:24,155 - INFO - 127.0.0.1 - - [18/Apr/2025 23:07:24] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:07:37,935 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 23:07:37,935 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 23:07:37,938 - INFO -  * Restarting with stat
+2025-04-18 23:07:39,074 - WARNING -  * Debugger is active!
+2025-04-18 23:07:39,079 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 23:07:53,571 - INFO - 127.0.0.1 - - [18/Apr/2025 23:07:53] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:07:53,705 - INFO - 127.0.0.1 - - [18/Apr/2025 23:07:53] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:08:00,900 - INFO - 127.0.0.1 - - [18/Apr/2025 23:08:00] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:08:00,921 - INFO - 127.0.0.1 - - [18/Apr/2025 23:08:00] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:08:37,601 - INFO - 127.0.0.1 - - [18/Apr/2025 23:08:37] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:08:37,619 - INFO - 127.0.0.1 - - [18/Apr/2025 23:08:37] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:08:42,079 - INFO - 127.0.0.1 - - [18/Apr/2025 23:08:42] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:08:42,098 - INFO - 127.0.0.1 - - [18/Apr/2025 23:08:42] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:09:40,601 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 23:09:40,602 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 23:09:40,604 - INFO -  * Restarting with stat
+2025-04-18 23:09:41,752 - WARNING -  * Debugger is active!
+2025-04-18 23:09:41,756 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 23:09:43,861 - INFO - 127.0.0.1 - - [18/Apr/2025 23:09:43] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:09:43,983 - INFO - 127.0.0.1 - - [18/Apr/2025 23:09:43] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 23:09:49,764 - INFO - 127.0.0.1 - - [18/Apr/2025 23:09:49] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:09:49,785 - INFO - 127.0.0.1 - - [18/Apr/2025 23:09:49] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:10:15,108 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 23:10:15,108 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 23:10:15,110 - INFO -  * Restarting with stat
+2025-04-18 23:10:16,295 - WARNING -  * Debugger is active!
+2025-04-18 23:10:16,299 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 23:10:19,044 - INFO - 127.0.0.1 - - [18/Apr/2025 23:10:19] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:10:19,179 - INFO - 127.0.0.1 - - [18/Apr/2025 23:10:19] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 500 -
+2025-04-18 23:13:04,231 - INFO -  * Detected change in 'D:\\OneDrive - UNINTER - Aluno\\Matérias\\27.Projeto - Desenvolvimento Back-end\\micro_sistema_saude\\app\\routes\\usuarios.py', reloading
+2025-04-18 23:13:04,409 - INFO -  * Restarting with stat
+2025-04-18 23:13:06,015 - WARNING -  * Debugger is active!
+2025-04-18 23:13:06,019 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 23:13:35,152 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 23:13:35,152 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 23:13:35,154 - INFO -  * Restarting with stat
+2025-04-18 23:13:36,272 - WARNING -  * Debugger is active!
+2025-04-18 23:13:36,276 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 23:13:38,238 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:38] "GET / HTTP/1.1" 200 -
+2025-04-18 23:13:39,273 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:39] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 23:13:40,122 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:40] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 23:13:40,366 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:40] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 23:13:40,382 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:40] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 23:13:40,387 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:40] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 23:13:40,387 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:40] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 23:13:40,510 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:40] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 23:13:40,537 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:40] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 23:13:47,442 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:47] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:13:47,565 - INFO - 127.0.0.1 - - [18/Apr/2025 23:13:47] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 400 -
+2025-04-18 23:16:15,272 - INFO - 127.0.0.1 - - [18/Apr/2025 23:16:15] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:16:15,282 - INFO - 127.0.0.1 - - [18/Apr/2025 23:16:15] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 400 -
+2025-04-18 23:18:20,938 - INFO - 127.0.0.1 - - [18/Apr/2025 23:18:20] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:18:20,946 - INFO - 127.0.0.1 - - [18/Apr/2025 23:18:20] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 400 -
+2025-04-18 23:22:54,086 - INFO - 127.0.0.1 - - [18/Apr/2025 23:22:54] "GET / HTTP/1.1" 200 -
+2025-04-18 23:22:54,838 - INFO - 127.0.0.1 - - [18/Apr/2025 23:22:54] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 23:22:55,975 - INFO - 127.0.0.1 - - [18/Apr/2025 23:22:55] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 23:22:56,030 - INFO - 127.0.0.1 - - [18/Apr/2025 23:22:56] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 23:22:56,039 - INFO - 127.0.0.1 - - [18/Apr/2025 23:22:56] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 23:22:56,040 - INFO - 127.0.0.1 - - [18/Apr/2025 23:22:56] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 23:22:56,041 - INFO - 127.0.0.1 - - [18/Apr/2025 23:22:56] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 23:22:56,125 - INFO - 127.0.0.1 - - [18/Apr/2025 23:22:56] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 23:22:56,149 - INFO - 127.0.0.1 - - [18/Apr/2025 23:22:56] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 23:27:09,428 - INFO - 127.0.0.1 - - [18/Apr/2025 23:27:09] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-04-18 23:27:17,743 - INFO - 127.0.0.1 - - [18/Apr/2025 23:27:17] "POST /auth/login HTTP/1.1" 200 -
+2025-04-18 23:27:41,718 - INFO - 127.0.0.1 - - [18/Apr/2025 23:27:41] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:27:41,728 - INFO - 127.0.0.1 - - [18/Apr/2025 23:27:41] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 23:27:45,525 - INFO - 127.0.0.1 - - [18/Apr/2025 23:27:45] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:27:45,534 - INFO - 127.0.0.1 - - [18/Apr/2025 23:27:45] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 400 -
+2025-04-18 23:28:13,153 - INFO - 127.0.0.1 - - [18/Apr/2025 23:28:13] "[32mGET /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:28:13,163 - INFO - 127.0.0.1 - - [18/Apr/2025 23:28:13] "GET /usuarios/ HTTP/1.1" 200 -
+2025-04-18 23:28:24,111 - INFO - 127.0.0.1 - - [18/Apr/2025 23:28:24] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:28:24,121 - INFO - 127.0.0.1 - - [18/Apr/2025 23:28:24] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 400 -
+2025-04-18 23:34:33,045 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 23:34:33,046 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 23:34:33,048 - INFO -  * Restarting with stat
+2025-04-18 23:34:34,156 - WARNING -  * Debugger is active!
+2025-04-18 23:34:34,160 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 23:34:36,846 - INFO - 127.0.0.1 - - [18/Apr/2025 23:34:36] "GET / HTTP/1.1" 200 -
+2025-04-18 23:34:37,821 - INFO - 127.0.0.1 - - [18/Apr/2025 23:34:37] "GET /auth/status HTTP/1.1" 200 -
+2025-04-18 23:34:38,705 - INFO - 127.0.0.1 - - [18/Apr/2025 23:34:38] "GET /api/docs/ HTTP/1.1" 200 -
+2025-04-18 23:34:38,921 - INFO - 127.0.0.1 - - [18/Apr/2025 23:34:38] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2025-04-18 23:34:38,931 - INFO - 127.0.0.1 - - [18/Apr/2025 23:34:38] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-04-18 23:34:38,939 - INFO - 127.0.0.1 - - [18/Apr/2025 23:34:38] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-04-18 23:34:38,940 - INFO - 127.0.0.1 - - [18/Apr/2025 23:34:38] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-04-18 23:34:39,070 - INFO - 127.0.0.1 - - [18/Apr/2025 23:34:39] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2025-04-18 23:34:39,095 - INFO - 127.0.0.1 - - [18/Apr/2025 23:34:39] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-18 23:35:06,273 - INFO - 127.0.0.1 - - [18/Apr/2025 23:35:06] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:35:06,398 - INFO - 127.0.0.1 - - [18/Apr/2025 23:35:06] "[31m[1mPOST /usuarios/ HTTP/1.1[0m" 400 -
+2025-04-18 23:40:30,628 - INFO - 127.0.0.1 - - [18/Apr/2025 23:40:30] "[32mPOST /usuarios HTTP/1.1[0m" 308 -
+2025-04-18 23:40:30,653 - INFO - 127.0.0.1 - - [18/Apr/2025 23:40:30] "[35m[1mPOST /usuarios/ HTTP/1.1[0m" 201 -
+2025-04-18 23:48:28,372 - INFO - 127.0.0.1 - - [18/Apr/2025 23:48:28] "[32mGET /pacientes HTTP/1.1[0m" 308 -
+2025-04-18 23:48:28,384 - INFO - 127.0.0.1 - - [18/Apr/2025 23:48:28] "GET /pacientes/ HTTP/1.1" 200 -
+2025-04-18 23:54:38,503 - INFO - 127.0.0.1 - - [18/Apr/2025 23:54:38] "[32mPOST /pacientes HTTP/1.1[0m" 308 -
+2025-04-18 23:54:38,537 - INFO - 127.0.0.1 - - [18/Apr/2025 23:54:38] "[35m[1mPOST /pacientes/ HTTP/1.1[0m" 500 -
+2025-04-18 23:55:02,145 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-18 23:55:02,145 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 23:55:02,147 - INFO -  * Restarting with stat
+2025-04-18 23:55:03,370 - WARNING -  * Debugger is active!
+2025-04-18 23:55:03,374 - INFO -  * Debugger PIN: 559-662-008
+2025-04-18 23:55:10,748 - INFO - 127.0.0.1 - - [18/Apr/2025 23:55:10] "[32mPOST /pacientes HTTP/1.1[0m" 308 -
+2025-04-18 23:55:10,765 - INFO - 127.0.0.1 - - [18/Apr/2025 23:55:10] "[35m[1mPOST /pacientes/ HTTP/1.1[0m" 500 -
+2025-04-18 23:58:24,224 - INFO - 127.0.0.1 - - [18/Apr/2025 23:58:24] "[32mPOST /pacientes HTTP/1.1[0m" 308 -
+2025-04-18 23:58:24,348 - INFO - 127.0.0.1 - - [18/Apr/2025 23:58:24] "[35m[1mPOST /pacientes/ HTTP/1.1[0m" 201 -
+2025-04-19 00:03:59,324 - INFO - 127.0.0.1 - - [19/Apr/2025 00:03:59] "[32mGET /prontuarios HTTP/1.1[0m" 308 -
+2025-04-19 00:03:59,338 - INFO - 127.0.0.1 - - [19/Apr/2025 00:03:59] "GET /prontuarios/ HTTP/1.1" 200 -
+2025-04-19 00:04:06,187 - INFO - 127.0.0.1 - - [19/Apr/2025 00:04:06] "[32mGET /prontuarios HTTP/1.1[0m" 308 -
+2025-04-19 00:04:06,195 - INFO - 127.0.0.1 - - [19/Apr/2025 00:04:06] "GET /prontuarios/ HTTP/1.1" 200 -
+2025-04-19 00:08:26,792 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-19 00:08:26,792 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 00:08:26,794 - INFO -  * Restarting with stat
+2025-04-19 00:08:27,925 - WARNING -  * Debugger is active!
+2025-04-19 00:08:27,929 - INFO -  * Debugger PIN: 559-662-008
+2025-04-19 00:09:36,010 - INFO - 127.0.0.1 - - [19/Apr/2025 00:09:36] "[32mPOST /prontuarios HTTP/1.1[0m" 308 -
+2025-04-19 00:09:36,044 - INFO - 127.0.0.1 - - [19/Apr/2025 00:09:36] "[35m[1mPOST /prontuarios/ HTTP/1.1[0m" 500 -
+2025-04-19 00:10:21,793 - INFO - 127.0.0.1 - - [19/Apr/2025 00:10:21] "[32mPOST /prontuarios HTTP/1.1[0m" 308 -
+2025-04-19 00:10:21,808 - INFO - 127.0.0.1 - - [19/Apr/2025 00:10:21] "[35m[1mPOST /prontuarios/ HTTP/1.1[0m" 500 -
+2025-04-19 00:10:40,509 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-19 00:10:40,510 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 00:10:40,512 - INFO -  * Restarting with stat
+2025-04-19 00:10:41,703 - WARNING -  * Debugger is active!
+2025-04-19 00:10:41,709 - INFO -  * Debugger PIN: 559-662-008
+2025-04-19 00:10:59,358 - INFO - 127.0.0.1 - - [19/Apr/2025 00:10:59] "[32mPOST /prontuarios HTTP/1.1[0m" 308 -
+2025-04-19 00:10:59,375 - INFO - 127.0.0.1 - - [19/Apr/2025 00:10:59] "[35m[1mPOST /prontuarios/ HTTP/1.1[0m" 500 -
+2025-04-19 00:12:54,421 - INFO - 127.0.0.1 - - [19/Apr/2025 00:12:54] "[32mPOST /prontuarios HTTP/1.1[0m" 308 -
+2025-04-19 00:12:54,550 - INFO - 127.0.0.1 - - [19/Apr/2025 00:12:54] "[35m[1mPOST /prontuarios/ HTTP/1.1[0m" 201 -
+2025-04-19 00:13:09,791 - INFO - 127.0.0.1 - - [19/Apr/2025 00:13:09] "[32mPOST /prontuarios HTTP/1.1[0m" 308 -
+2025-04-19 00:13:09,800 - INFO - 127.0.0.1 - - [19/Apr/2025 00:13:09] "[35m[1mPOST /prontuarios/ HTTP/1.1[0m" 201 -
+2025-04-19 00:20:26,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-19 00:20:26,042 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 00:20:26,044 - INFO -  * Restarting with stat
+2025-04-19 00:20:27,210 - WARNING -  * Debugger is active!
+2025-04-19 00:20:27,215 - INFO -  * Debugger PIN: 559-662-008
+2025-04-19 00:22:27,301 - INFO - 127.0.0.1 - - [19/Apr/2025 00:22:27] "[32mPOST /agendamentos HTTP/1.1[0m" 308 -
+2025-04-19 00:22:27,334 - INFO - 127.0.0.1 - - [19/Apr/2025 00:22:27] "[35m[1mPOST /agendamentos/ HTTP/1.1[0m" 500 -
+2025-04-19 00:24:31,595 - INFO - 127.0.0.1 - - [19/Apr/2025 00:24:31] "[32mPOST /agendamentos HTTP/1.1[0m" 308 -
+2025-04-19 00:24:31,721 - INFO - 127.0.0.1 - - [19/Apr/2025 00:24:31] "[35m[1mPOST /agendamentos/ HTTP/1.1[0m" 201 -
+2025-04-19 00:24:38,026 - INFO - 127.0.0.1 - - [19/Apr/2025 00:24:38] "[32mPOST /agendamentos HTTP/1.1[0m" 308 -
+2025-04-19 00:24:38,035 - INFO - 127.0.0.1 - - [19/Apr/2025 00:24:38] "[35m[1mPOST /agendamentos/ HTTP/1.1[0m" 201 -
+2025-04-19 00:28:32,088 - INFO - 127.0.0.1 - - [19/Apr/2025 00:28:32] "[32mGET /agendamentos HTTP/1.1[0m" 308 -
+2025-04-19 00:28:32,100 - INFO - 127.0.0.1 - - [19/Apr/2025 00:28:32] "GET /agendamentos/ HTTP/1.1" 200 -

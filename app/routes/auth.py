@@ -2,10 +2,11 @@ from flask import Blueprint, request, jsonify
 from app.models import Usuario
 from app import db, bcrypt
 from config import Config
-import jwt
+import jwt  # Certifique-se de que é o módulo PyJWT
 from datetime import datetime, timedelta
 
-auth_bp = Blueprint('auth', __name__)
+# Alteração do nome do blueprint para garantir que seja único
+auth_bp = Blueprint('auth_blueprint', __name__)
 
 # Rota para login
 @auth_bp.route("/login", methods=["POST"])
@@ -21,15 +22,18 @@ def login():
     usuario = Usuario.query.filter_by(email=dados["email"]).first()
 
     if usuario and bcrypt.check_password_hash(usuario.senha, dados["senha"]):
+        # Gera o token JWT
         token = jwt.encode(
             {
                 "id": usuario.id,
                 "nome": usuario.nome,
-                "exp": datetime.utcnow() + timedelta(hours=2),
+                "exp": datetime.utcnow() + timedelta(hours=2),  # Expiração do token
             },
-            Config.SECRET_KEY,
-            algorithm="HS256",
+            Config.SECRET_KEY,  # Chave secreta para assinatura do token
+            algorithm="HS256"  # Algoritmo de assinatura
         )
+
+        # Retorna o token e os dados do usuário
         return jsonify({
             "mensagem": "Login bem-sucedido",
             "token": token,
@@ -42,10 +46,11 @@ def login():
 
     return jsonify({"erro": "Credenciais inválidas"}), 401
 
+
 # Rota para verificar se o serviço de autenticação está funcionando
-@auth_bp.route("/", methods=["GET"])
-def auth_index():
+@auth_bp.route("/status", methods=["GET"])
+def auth_status():
     """
-    Rota principal do blueprint de autenticação.
+    Rota de status do serviço de autenticação.
     """
     return jsonify({"mensagem": "API de autenticação VidaPlus funcionando!"}), 200
