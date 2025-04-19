@@ -15,14 +15,18 @@ class Paciente(db.Model):
     telefone = db.Column(db.String(15), nullable=True)
     endereco = db.Column(db.String(200), nullable=True)
 
+    # Configurar o relacionamento com exclusão em cascata
+    prontuarios = db.relationship('Prontuario', backref='paciente', cascade="all, delete-orphan")
+    agendamentos = db.relationship('Agendamento', backref='paciente', cascade="all, delete-orphan")
+
 class Prontuario(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    paciente_id = db.Column(db.Integer, db.ForeignKey('paciente.id'), nullable=False)
+    paciente_id = db.Column(db.Integer, db.ForeignKey('paciente.id', ondelete='CASCADE'), nullable=False)
     descricao = db.Column(db.Text, nullable=False)
     data_criacao = db.Column(db.DateTime, default=datetime.utcnow)
 
 class Agendamento(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    paciente_id = db.Column(db.Integer, db.ForeignKey('paciente.id'), nullable=False)
+    paciente_id = db.Column(db.Integer, db.ForeignKey('paciente.id', ondelete='CASCADE'), nullable=False)
     data_horario = db.Column(db.DateTime, nullable=False)
     status = db.Column(db.String(20), default="pendente")

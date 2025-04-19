@@ -975,3 +975,36 @@
 2025-04-19 00:39:37,961 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:37] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
 2025-04-19 00:39:38,207 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:38] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
 2025-04-19 00:39:38,279 - INFO - 127.0.0.1 - - [19/Apr/2025 00:39:38] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-04-19 11:07:23,864 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-19 11:07:23,864 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 11:07:23,867 - INFO -  * Restarting with stat
+2025-04-19 11:07:24,999 - WARNING -  * Debugger is active!
+2025-04-19 11:07:25,003 - INFO -  * Debugger PIN: 559-662-008
+2025-04-19 11:07:40,104 - INFO - 127.0.0.1 - - [19/Apr/2025 11:07:40] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-04-19 11:07:40,356 - INFO - 127.0.0.1 - - [19/Apr/2025 11:07:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-19 11:07:44,007 - INFO - 127.0.0.1 - - [19/Apr/2025 11:07:44] "GET / HTTP/1.1" 200 -
+2025-04-19 11:22:03,066 - INFO - 127.0.0.1 - - [19/Apr/2025 11:22:03] "POST /auth/login HTTP/1.1" 200 -
+2025-04-19 11:23:26,270 - INFO - 127.0.0.1 - - [19/Apr/2025 11:23:26] "[33mPUT /usuarios/2 HTTP/1.1[0m" 404 -
+2025-04-19 11:32:47,309 - INFO -  * Detected change in 'D:\\OneDrive - UNINTER - Aluno\\Matérias\\27.Projeto - Desenvolvimento Back-end\\micro_sistema_saude\\app\\routes\\usuarios.py', reloading
+2025-04-19 11:32:47,466 - INFO -  * Restarting with stat
+2025-04-19 11:32:48,762 - WARNING -  * Debugger is active!
+2025-04-19 11:32:48,765 - INFO -  * Debugger PIN: 559-662-008
+2025-04-19 11:32:58,485 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-04-19 11:32:58,485 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 11:32:58,487 - INFO -  * Restarting with stat
+2025-04-19 11:32:59,578 - WARNING -  * Debugger is active!
+2025-04-19 11:32:59,582 - INFO -  * Debugger PIN: 559-662-008
+2025-04-19 11:37:43,873 - INFO - 127.0.0.1 - - [19/Apr/2025 11:37:43] "PUT /usuarios/2 HTTP/1.1" 200 -
+2025-04-19 11:47:54,695 - INFO - 127.0.0.1 - - [19/Apr/2025 11:47:54] "[31m[1mDELETE /usuarios/2 HTTP/1.1[0m" 405 -
+2025-04-19 11:51:01,776 - INFO -  * Detected change in 'D:\\OneDrive - UNINTER - Aluno\\Matérias\\27.Projeto - Desenvolvimento Back-end\\micro_sistema_saude\\app\\routes\\usuarios.py', reloading
+2025-04-19 11:51:01,923 - INFO -  * Restarting with stat
+2025-04-19 11:51:03,285 - WARNING -  * Debugger is active!
+2025-04-19 11:51:03,289 - INFO -  * Debugger PIN: 559-662-008
+2025-04-19 11:51:13,542 - INFO -  * Detected change in 'D:\\OneDrive - UNINTER - Aluno\\Matérias\\27.Projeto - Desenvolvimento Back-end\\micro_sistema_saude\\app\\routes\\usuarios.py', reloading
+2025-04-19 11:51:13,683 - INFO -  * Restarting with stat
