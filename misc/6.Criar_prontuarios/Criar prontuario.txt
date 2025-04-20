@@ -4,12 +4,3 @@
   "paciente_id": 1,
   "medico_id": 2
 }
-
-Método HTTP: POST.
-URL: http://127.0.0.1:5000/prontuarios.
-Cabeçalhos:
-Authorization: Bearer <TOKEN>.
-Content-Type: application/json.
-Corpo da Requisição (Body):
-Escolha a opção raw.
-Cole o JSON mencionado acima.
