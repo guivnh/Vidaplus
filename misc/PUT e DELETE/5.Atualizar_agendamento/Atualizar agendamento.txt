@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "Atualizar Agendamento",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Atualizar Agendamento",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:5000/agendamentos/1",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["agendamentos", "1"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": {{id}},\n  \"paciente_id\": {{paciente_id}},\n  \"data_horario\": \"2025-04-15T15:00:00\",\n  \"status\": \"cancelado\"\n}"
+        }
+      },
+      "response": []
+    }
+  ]
+}

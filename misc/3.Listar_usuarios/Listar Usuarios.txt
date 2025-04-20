@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Listar Usuários",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Listar Usuários",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibm9tZSI6IkFkbWluIiwiZXhwIjoxNzQ1MDMxMDY4fQ._bcmqiXL0LkSb3WfTHvom4kgAlf2j3UGCYII5JiKYr4",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:5000/usuarios",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["usuarios"]
+        }
+      },
+      "response": []
+    }
+  ]
+}

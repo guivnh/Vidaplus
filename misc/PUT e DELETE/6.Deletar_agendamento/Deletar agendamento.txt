@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Deletar Agendamento",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Deletar Agendamento",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:5000/agendamentos/{{id}}",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["agendamentos", "{{id}}"]
+        }
+      },
+      "response": []
+    }
+  ]
+}

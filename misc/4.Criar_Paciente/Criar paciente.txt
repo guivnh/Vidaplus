@@ -1,0 +1,15 @@
+Método HTTP: POST.
+URL: http://127.0.0.1:5000/pacientes.
+Cabeçalhos:
+Authorization: Bearer <TOKEN>.
+Content-Type: application/json.
+Corpo da requisição (Body):
+Escolha a opção raw.
+Insira o JSON correto.
+
+
+{
+  "nome": "João Silva",
+  "data_nascimento": "1985-05-15",
+  "endereco": "Rua Exemplo, 123"
+}

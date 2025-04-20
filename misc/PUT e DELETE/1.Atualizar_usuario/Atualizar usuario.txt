@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "Atualizar Segundo Usuário",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Atualizar Segundo Usuário",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:5000/usuarios/2",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["usuarios", "2"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"Médico Atualizado\",\n  \"email\": \"medico@teste.com\",\n  \"nivel_acesso\": \"medico\"\n}"
+        }
+      },
+      "response": []
+    }
+  ]
+}

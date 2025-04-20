@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "Atualizar Paciente",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Atualizar Paciente",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://127.0.0.1:5000/pacientes/1",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["pacientes", "1"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"João Atualizado\",\n  \"data_nascimento\": \"1985-05-16\",\n  \"telefone\": \"+55 11 91234-5678\",\n  \"endereco\": \"Rua Exemplo Atualizada, 456\"\n}"
+        }
+      },
+      "response": []
+    }
+  ]
+}

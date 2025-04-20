@@ -1,0 +1,14 @@
+Configure a requisição:
+
+Método HTTP: POST.
+URL: http://127.0.0.1:5000/agendamentos.
+Cabeçalhos:
+Authorization: Bearer <TOKEN>.
+Content-Type: application/json.
+Body (raw):
+
+{
+  "data_horario": "2025-04-15T10:30:00",
+  "paciente_id": 1,
+  "medico_id": 2
+}
