@@ -4,10 +4,3 @@
   "senha": "novaSenha123",
   "nivel_acesso": "administrador"
 }
-
-Como usar:
-Método HTTP: POST
-Cabeçalhos:
-Authorization: Bearer <TOKEN>
-Content-Type: application/json
-Corpo da requisição (body): Use o JSON acima.
