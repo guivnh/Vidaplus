@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Configure o Banco de Dados
-- Crie um banco de dados no PostgreSQL.
+- Crie uma database no PostgreSQL chamada 'micro_sistema_saude' e as tabelas: 'agendamento', 'paciente', 'prontuário' e 'usuario'.
 - Configure o arquivo `.env` com as variáveis de ambiente necessárias:
   ```env
   FLASK_APP=app.py
